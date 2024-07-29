@@ -1017,25 +1017,25 @@ File: iwlwifi-so-a0-jf-b0-74.ucode
 Version: 74.a5e9588b.0
 
 File: iwlwifi-cc-a0-77.ucode
-Version: 74.c360c4b1.0
+Version: 74.85be44d3.0
 
 File: iwlwifi-Qu-b0-hr-b0-77.ucode
-Version: 74.c360c4b1.0
+Version: 74.85be44d3.0
 
 File: iwlwifi-Qu-b0-jf-b0-77.ucode
-Version: 74.c360c4b1.0
+Version: 74.85be44d3.0
 
 File: iwlwifi-Qu-c0-hr-b0-77.ucode
-Version: 74.c360c4b1.0
+Version: 74.85be44d3.0
 
 File: iwlwifi-Qu-c0-jf-b0-77.ucode
-Version: 74.c360c4b1.0
+Version: 74.85be44d3.0
 
 File: iwlwifi-QuZ-a0-hr-b0-77.ucode
-Version: 74.c360c4b1.0
+Version: 74.85be44d3.0
 
 File: iwlwifi-QuZ-a0-jf-b0-77.ucode
-Version: 74.c360c4b1.0
+Version: 74.85be44d3.0
 
 File: iwlwifi-ty-a0-gf-a0-77.ucode
 Version: 74.f92b5fed.0
@@ -1143,6 +1143,9 @@ Version: 83.fb5c9aeb.0
 
 File: iwlwifi-gl-c0-fm-c0-90.ucode
 Version: 87.38c93dbc.0
+
+File: iwlwifi-gl-c0-fm-c0-92.ucode
+Version: 89.67ce4588.0
 
 File: iwlwifi-gl-c0-fm-c0.pnvm
 
@@ -5027,7 +5030,7 @@ File: i915/bmg_dmc.bin
 Version: DMC API/APB ver 2 release 6 for Battlemage
 
 File: i915/xe2lpd_dmc.bin
-Version: DMC API/APB ver 2 release 20 for Xe2LPD
+Version: DMC API/APB ver 2 release 21 for Xe2LPD
 
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
@@ -5736,9 +5739,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20240219110958a
+Version: 20240716150944a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20240219111038
+Version: 20240716151027
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5747,7 +5750,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20240219111427
+Version: 20240716150858
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5756,9 +5759,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 Wireless MACs
 
 File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
-Version: 20240409163301a
+Version: 20240716163242a
 File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
-Version: 20240409163347
+Version: 20240716163327
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5767,7 +5770,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
-Version: 20240409163648
+Version: 20240716163157
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -7232,8 +7235,7 @@ Version: v0.2.1
 File: mediatek/sof/sof-mt8195.ri
 File: mediatek/sof/sof-mt8195.ldc
 File: mediatek/sof-tplg/sof-mt8195-mt6359-rt1019-rt5682.tplg
-File: mediatek/sof-tplg/sof-mt8195-mt6359-rt1019-rt5682-dts.tplg
-Version: v0.4.1
+Version: v0.4.2
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -7384,10 +7386,8 @@ Link: TAS2XXX38E0.bin -> ti/tas2781/TAS2XXX38E0.bin
 Link: TIAS2781RCA2.bin -> ti/tas2781/TIAS2781RCA2.bin
 Link: TIAS2781RCA4.bin -> ti/tas2781/TIAS2781RCA4.bin
 
-Licence: Allegedly GPLv2+, but no source visible. Marked:
-	 Copyright (C) 2023 Texas Instruments
-
-Found in hex form in kernel source.
+Licence: Redistributable. See LICENCE.ti-tspa for details. Marked:
+	 Copyright (C) 2023 - 2024 Texas Instruments
 
 --------------------------------------------------------------------------
 
@@ -7397,10 +7397,8 @@ File: ti/tas2563/INT8866RCA2.bin
 Link: TAS2XXX3870.bin -> ti/tas2563/TAS2XXX3870.bin
 Link: INT8866RCA2.bin -> ti/tas2563/INT8866RCA2.bin
 
-Licence: Allegedly GPLv2+, but no source visible. Marked:
-	 Copyright (C) 2023 Texas Instruments
-
-Found in hex form in kernel source.
+Licence: Redistributable. LICENCE.ti-tspa for details. Marked:
+	 Copyright (C) 2023 - 2024 Texas Instruments
 
 --------------------------------------------------------------------------
 
